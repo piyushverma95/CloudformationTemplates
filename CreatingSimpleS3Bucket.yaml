@@ -1,0 +1,6 @@
+Resources:
+  S3BucketPiyushTest:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: simple-unique.test1
+      AccelerateConfiguration: Suspended
